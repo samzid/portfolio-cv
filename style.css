@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+body{
+    background-color:#21ff; 
+}
+.profile-pic img {
+    margin: 0px 0px;
+    padding: 0px 37px;
+    width: 100%;
+    border-radius: 110px;
+    transform: translate(0px, -10px);
+    height: 172px;
+}
+.contaner{
+    width: 65%;
+    margin: auto;
+    padding: 40px;
+}
+.main{
+    display: flex;
+}
+.left {
+    background-color: #1b0327;
+    padding: 10px 0px;
+    width: 27%;
+}
+.right{
+    background-color: #0bb;
+    width:  70%;
+}
+.top{
+    background-color: #000000;
+    height: 250px;
+    padding: 10px;
+    color: wheat;
+}
+.profile-pic{
+    height: 180px;
+}
+.section-content {
+    padding: 222px 0px;
+    color: #068006;
+    line-height: 43px;
+    margin: 0px 5px;
+}
+.contact {
+    display: fixed;
+    justify-content: space-around;
+    width: 100%;
+    height: -webkit-fill-available;
+}
+.contact li{
+    font-size: 24px;
+}
+.contact.label{
+    width: 100px;
+    color: #771179;
+}
+.contact.value{
+   color: #fafafa;
+}
+.section-containar {
+    padding: 20px 0;
+    color: #000000;
+}
+.contect-details {
+    height: 430px;
+    width: 100%;
+    margin: 100px 0px;
+}
+.section-containar.head{
+    font-size:20px; 
+    font-weight: 900px;
+    color: #771179;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing:4px; 
+}
+.skill-range.containar{
+    height: 16px;
+    background-color: yellow;
+}
+.skill{
+    padding: 5px 0px;
+}
+.skill-range-containar {
+    height: 39px;
+    background-color: ;
+    width: 230px;
+}
+.skill-range{
+    height: 16px;
+    background: yellow;
+}
+.skill-name{
+    padding-bottom: 10px;
+}
+.name {
+    text-align: inherit;
+}
+.language{
+    padding: 10px 0px;
+}
+
+h5 {
+    text-align: center;
+    margin: 1px 0px;
+    padding: -1px 0px;
+}
+.w80{
+   width: 80%;
+}
+.w75{
+    width: 75%;
+}
+.w65{
+    width: 65%;
+}
+.w55{
+    width: 55%;
+}
+.sectin-head {
+    text-align: center;
+    color: midnightblue;
+    margin: 0px 1px;
+    padding: 20px 15px;
+    background: gainsboro;
+}
+.language-range{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.squre{
+    height: 17px;
+    width: 16px
+}
+.purpl{
+    background: #bcbcbc;
+}
+.head {
+    text-align: center;
+    margin: 0px 10px;
+    padding: 44PX 13PX;
+}
+.white{
+    background: #ffff;
+}
+.certificetion {
+    font-size: 14px;
+    padding: 35px 0px;
+    margin: 200px -1px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 2;
+}
+.label {
+    margin: 1px 8px;
+}
+.label img {
+    margin: auto;
+    padding: 1px 43px;
+    width: 95%;
+}
+ul {
+    margin: 6px 4px;
+    padding: 1px 11px;
+    width: 98%;
+    height: 128px;
+    line-height: 36px;
+}
+
+
+.social-icon {
+    float: right;
+    margin: -55px -27px;
+}
+.title h5 {
+    text-align: inherit;
+    margin: 0px 25px;
+    padding: 0px 5px;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    font-family: -webkit-body;
+    margin: 1px 3px;
+    padding: 0px 0px;
+}
+li img {
+    width: 5%;
+    height: 16px;
+    margin: 0px 19px;
+    padding: 0px 0px;
+}
+.desc {
+    text-align: center;
+    font-size: 21px;
+    font-family: initial;
+    font-weight: normal;
+    margin: 18px 6px;
+}
+.education-section {
+    font-style: normal;
+    text-align: center;
+    color: #6c30e0;
+    background: #f9f1f1de;
+    padding: 23px 0px;
+    margin-bottom: -30px;
+}
+.educations {
+    margin: 30px 0px;
+    padding: 37px 15px;
+    text-align: center;
+    background: teal;
+    color: blanchedalmond;
+    width: 100%;
+    height: 200px;
+}
+p.detail {
+    margin: 0 11px;
+    padding: 5px 2px;
+    line-height: 24px;
+}
+.experience {
+    margin: 5px 10px;
+    padding: 0px 10px;
+    
+}
+h1 {
+    font-weight: 800;
+}
+.section-head {
+    padding: 26px 0px;
+    margin: -31px -19px;
+    text-align: center;
+    background: bisque;
+    height: 81px;
+}
+.exprience {
+    margin: 48px 8px;
+    padding: 19px 0px;
+    text-align: center;
+    font-family: initial;
+}
+.projects {
+    margin: 2px -20px;
+    padding: 88px 0px;
+    height: 0px;
+    text-align: center;
+}
+.section_head {
+    background: #1254;
+    margin: 0px;
+    padding: 24px 0px;
+}
+.project {
+    margin: 50px 0px;
+    padding: 10px 7px;
+    font-style: inherit;
+}
+.certificetion p {
+    margin: 24px 38px;
+    height: 0px;
+    padding: 0px;
+}
+.certificetion h2 {
+    font-weight: 800;
+    font-size: x-large;
+}
